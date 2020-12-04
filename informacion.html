@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bacaApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body ng-controller="bacacontroller">
+    <nav class="uk-navbar-container" uk-navbar="dropbar: true;" style="background-color: #141313" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="index.html"><img src="logo.jpeg" alt="" class="uk-widht-1-3"
+                    width="120px"></a>
+        </div>
+        <div class="uk-navbar-center">
+            <div class="uk-navbar-item">
+                <h2 style="color: #b58a56;;">
+                    BACA
+                </h2>
+            </div>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a class="uk-navbar-toggle" style="color: #b58a56;" href="#"><span uk-icon="icon: menu; ratio: 2"></span></a>
+                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4" style="background-color: #141313;">
+                        <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
+                            <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">Precios</li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="index.html">Empresas de eventos</a></li>
+                                    <li><a href="proveedores.html">Proveedores</a></li>
+                                    <li><a href="#">Persona independiente</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">Comunicación</li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="contacto.html">Contacto</a></li>
+                                    <li><a href="#">Ayuda</a></li>
+                                    <li><a href="#">Trabaja con nosotros</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-nav-header">Nosotros</li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Historia</a></li>
+                                    <li><a href="#">Misión</a></li>
+                                    <li><a href="#">Visión</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="login.html">Iniciar Sesión<span uk-icon="icon: user; ratio: 2"></span> </a></li>
+                                    <li><a href="#">Registrarse</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="uk-navbar-dropbar" style="background-color: #141313"></div>
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+        data-src="copas.jpg" uk-img>
+        <h2>Vg Producciones</h2>
+    </div>
+    <div class="uk-section uk-section-default">
+        <div class="uk-container">
+            <table>
+                <tr>
+                    <td width="70%" valign="top">
+                        <h3>Descripción</h3>
+                        <br>
+                        <p>En VG Producciones pueden realizar diferentes montajes para destacar cada ocasión, ya que ellos se adaptan a la necesidad de cada cliente. En VG Producciones pueden realizar diferentes montajes para destacar cada ocasión, ya que ellos se adaptan a la necesidad de cada cliente. En VG Producciones pueden realizar diferentes montajes para destacar cada ocasión, ya que ellos se adaptan a la necesidad de cada cliente.</p>
+                    </td>
+                    <td width="30%" valign="top">
+                        <h3>Contacto</h3>
+                        <br>
+                        <p><a href="https://www.instagram.com/vgproducciones/?hl=es">Instagram</a></p>
+                        <p>Celular: 317-6379682</p>
+                        <p>Correo: vgproducciones3@Gmail.com</p>
+                    </td>
+                </tr>
+            </table>
+            <h2>Servicios</h2>
+            <p>Desde <b> $1'500.000</b></p>
+            <div class="uk-grid-match uk-child-width-1-4@m" uk-grid> 
+                <div>
+                    <span uk-icon="icon: microphone; ratio: 2"></span> Karaoke
+                </div>
+                <div>
+                    <span uk-icon="icon: camera; ratio: 2"></span> Fotografo profesional
+                </div>
+                <div>
+                    <span uk-icon="icon: star; ratio: 2"></span> Polvora fria
+                </div>
+                <div>
+                    <span uk-icon="icon: check; ratio: 2"></span> Banquete
+                </div>
+            </div>
+
+            <h3>Experiencias de clientes</h3>
+            <div>
+                <div class="uk-card uk-card-small uk-card-hover uk-card-body">
+                    <h4 class="uk-card-title">Martha</h4>
+                    <p>Me parecio increible la experiencia con mi boda, fue espectacular</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-small uk-card-hover uk-card-body">
+                    <h4 class="uk-card-title">Juan</h4>
+                    <p>La organización y la decoración fue increible, de verdad muy recomendado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
